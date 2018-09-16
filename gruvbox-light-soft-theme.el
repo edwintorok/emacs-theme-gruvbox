@@ -47,9 +47,8 @@
 
 ;;; Code:
 (eval-when-compile
-  (require 'cl-lib))
-
-(require 'gruvbox)
+  (require 'cl-lib)
+  (require 'gruvbox))
 
 (gruvbox-deftheme
  gruvbox-light-soft
